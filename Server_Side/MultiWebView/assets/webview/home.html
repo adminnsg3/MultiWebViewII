@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Multi WebView</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="background-color: #e0ef4d; box-shadow: 0px 2px 2px #c9c9c9;">
+  <h2>Multi WebView</h2>
+  <p>You can manage unlimited users & websites with remote configuration from Admin Panel</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+	
+		<h4>Test your website</h4>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="input-group mb-3">
+					<div class="input-group-prepend">
+					  <button class="btn btn-outline-success" type="button" disabled><span style="color: #FF0000;">http://</span></button>  
+					</div>
+					<input type="text" class="form-control" id="website" required placeholder="www.YourDomain.com">
+					<div class="input-group-append">
+					  <button onclick="window.location = ('http://'+$('#website').val());" class="btn btn-success" type="submit">GO !</button>  
+					 </div>
+					</div>
+					<p><strong>Notic:</strong> Don't write <span style="color: #FF0000;">http://</span> befor URL.</p>
+                </div>
+            </div><hr>
+		
+		<!-- -------------------------------------------------------------- -->
+		
+		<h3 style="text-align: center;">Interactive HTML</h3>
+		<h6 style="text-align: center;">You can interact with the native functions of the phone, from the html.</h6><hr><br>
+		
+		<!-- -------------------------------------------------------------- -->
+		
+		<h4>Vibrate Phone</h4>
+		<p>You can operate the phone to vibrate by a button.</p>
+		<div class="alert alert-secondary">
+			Guide: <code>WebAppInterface.vibrate(milliseconds);</code>
+		</div>
+		<p>
+			<button type="button" OnClick="window.WebAppInterface.vibrate(1000);" class="btn btn-outline-success">Vibrate 1s</button>
+			<button type="button" OnClick="window.WebAppInterface.vibrate(3000);" class="btn btn-outline-success">Vibrate 3s</button>
+        </p><br><hr><br>
+		
+		<!-- -------------------------------------------------------------- -->
+		
+		<h4>Show Toast</h4>
+		<p>You can show a toast by passing the message from JS.</p>
+		<div class="alert alert-secondary">
+			Guide: <code>WebAppInterface.vibrate('Welcome to Multi WebView App!');</code>
+		</div>
+		<p>
+			<button type="button" OnClick="window.WebAppInterface.showToast('Welcome to Multi WebView App!');" class="btn btn-outline-success">Show Toast</button>
+        </p><br><hr><br>
+		
+		<!-- -------------------------------------------------------------- -->
+		
+		<h4>Create Snak Bar</h4>
+		<p>You can create a new snak bar by passing the message from JS.</p>
+		<div class="alert alert-secondary">
+			Guide: <code>WebAppInterface.snakBar('Welcome to Multi WebView App!');</code>
+		</div>
+		<p>
+			<button type="button" OnClick="window.WebAppInterface.snakBar('Welcome to Multi WebView App!');" class="btn btn-outline-success">Show Snack Bar</button>
+        </p><br><hr><br>
+		
+		<!-- -------------------------------------------------------------- -->
+		
+		<h4>Push Notification</h4>
+		<p>Create a new notification by passing title and message from JS.</p>
+		<div class="alert alert-secondary">
+			Guide: <code>WebAppInterface.newNotification('Title', 'Notification Message');</code>
+		</div>
+		<p>
+			<button type="button" OnClick="window.WebAppInterface.newNotification('Notificaiton Title', 'This is your notification from web page.');" class="btn btn-outline-success">Show Notification</button>
+        </p><br><hr><br>
+		
+		<!-- -------------------------------------------------------------- -->
+		
+		<!--<h4>Play Sound</h4>
+		<p>Play a mp3 file from your app.</p>
+		<div class="alert alert-secondary">
+			Play Music: <code>WebAppInterface.playSound();</code><br>
+			Stop Music: <code>WebAppInterface.stopSound();</code>
+		</div>
+		<p>
+			<button type="button" OnClick="window.WebAppInterface.playSound();" class="btn btn-outline-success">Play</button>
+            <button type="button" OnClick="window.WebAppInterface.stopSound();" class="btn btn-outline-danger">Stop</button>
+		</p><br><hr><br>-->
+		
+		<!-- -------------------------------------------------------------- -->
+		
+		<h4>Intent</h4>
+		<p>Email, SMS, Call, Social Networks intent are availible.</p>
+		<div class="alert alert-secondary">
+			Tel: <code>Start intent for "tel:" links.</code><br>
+			SMS: <code>Start intent for "sms:" links.</code><br>
+			Email: <code>Start intent for "mailto:" links.</code><br>
+			Instagram: <code>Start intent for "https://www.instagram.com/YourUsername" links.</code><br>
+			Facebook: <code>Start intent for "https://www.facebook.com/YourUsername" links.</code><br>
+			Twitter: <code>Start intent for "https://www.x.com/YourUsername" links.</code><br>
+			Telegram: <code>Start intent for "https://www.t.me/YourUsername" links.</code><br>
+			WhatsApp: <code>Start intent for "whatsapp://send?text=Your custom text..." links.</code><br>
+		</div>
+		<p style="line-height: 42px;">
+			<a type="button" href="tel:0971501234567" class="btn btn-outline-primary">Call</a>
+            <a type="button" href="sms:0971501234567" class="btn btn-outline-primary">SMS</a>
+            <a type="button" href="mailto:inw24.com@gmail.com" class="btn btn-outline-primary">Email</a>
+            <a type="button" href="https://www.instagram.com/YourUsername/" class="btn btn-outline-primary">Instagram</a>
+            <a type="button" href="https://www.facebook.com/YourUsername/" class="btn btn-outline-primary">Facebook</a>
+            <a type="button" href="https://www.x.com/YourUsername/" class="btn btn-outline-primary">X (Twitter)</a>
+            <a type="button" href="https://www.t.me/YourUsername" class="btn btn-outline-primary">Telegram</a>
+            <a type="button" href="whatsapp://send?text=Your custom text..." data-action="share/whatsapp/share" class="btn btn-outline-primary">WhatsApp</a>
+		</p><br><hr><br>
+		
+		<!-- -------------------------------------------------------------- -->
+		
+		<h4>Upload & Download</h4>
+		<p>Upload and Download listener are availible.</p>
+		<ul style="line-height: 32px;">
+            <li>Download listener: <a title="download" target="_blank" href="http://webview.inw24.com/images/webview.zip">Download Sample</a></li>
+            <li>Upload file listener: <input type="file" name="img" /></li>
+        </ul>
+		</p><br><hr><br>
+		
+		<!-- -------------------------------------------------------------- -->
+		
+		<h4>External Link</h4>
+		<p>You can open specific link on phone browser. Just add <strong>external:</strong> befor link URL.</p>
+		<div class="alert alert-secondary">
+			Example: <code><a href="external:https://google.com">www.Google.com</a></code><br>
+		</div>
+		</p><br><hr><br>
+		
+		<!-- -------------------------------------------------------------- -->
+		
+		<h4>Google & Facebook</h4>
+		<p>Sign-In & Sign-Up with Google / Facebook Account are Support.</p>
+		<br><hr>
+		
+		<p>Copyright © 2024 All Rights Reserved. <a href="http://webview.inw24.com" href="_blank">Multi WebView</a></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+ALTER TABLE `content_table` ADD `content_loader` VARCHAR(10) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT 'pull' COMMENT 'pull | dialog | hide' AFTER `content_menu`, ADD `content_pull_to_refresh` TINYINT(1) NOT NULL DEFAULT '1' COMMENT '0: Disable | 1: Enable' AFTER `content_loader`;

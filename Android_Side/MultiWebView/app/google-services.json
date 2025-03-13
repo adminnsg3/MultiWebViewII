@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "238958080975",
+    "firebase_url": "https://multi-webview-project.firebaseio.com",
+    "project_id": "multi-webview-project",
+    "storage_bucket": "multi-webview-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238958080975:android:342049990ba377cf",
+        "android_client_info": {
+          "package_name": "com.inw24.multiwebview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238958080975-jkunmhle6hf16jbtnog143mi0hpa4kam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdJLPIRf6xG1dxR_IO57Rxe9_cWWN1zgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238958080975-jkunmhle6hf16jbtnog143mi0hpa4kam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

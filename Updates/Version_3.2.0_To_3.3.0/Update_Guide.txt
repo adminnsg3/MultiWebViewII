@@ -1,0 +1,74 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Update from version 3.2.0 to 3.3.0
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Change Log:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     • Solved the problem on file uploading from File manager or Camera on the new Android version.
+     • Improved request access permissions.
+     • Solved X (tweeter) intent.
+     • Solved Facebook intent.
+     • Improved back key functionality.
+     • Accept third party cookies in the WebView.
+     • Update to Android Studio Koala (2024.1.1 Patch 2).
+     • Upgrade project to the AGP 8.5.2.
+     • Update SDK to the latest version.
+     • Update dependencies to the latest version.
+     • Fix bugs and improve performance in the new Android version.
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Backend Effected Files(s):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+All files and folders.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ SQL Effected Table(s):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     - Nothing.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Android Effected File(s):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     - build.gradle (Project)
+     - build.gradle (Module)
+     - app/src/main/AndroidManifest.xml
+     - app/src/main/java/com/inw24/multiwebview/activity/MainActivity.java
+     - app/src/main/java/com/inw24/multiwebview/activity/WebViewFragment.java
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Update Server Side:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Upload "Effected File(s) & Folders"  to your hosting space.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Update Database:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Import "Effected SQL" to your database.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Update Android Side:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Copy "Effected File(s)" to your existing project.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Notes:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   - Be careful with your package name and your custom changes.
+   - If any errors occurred after upgrade or you edit on code/database, we are not responsible for that.
+   - We are NOT providing support for learning to customize and upgrade.
+
+
+---
+Thanks & Regards
+Website: www.ViaCoders.com
+Email: ViaCoders@gmail.com

@@ -1,0 +1,55 @@
+=========================
+Update from version 3.0.0 to 3.1.0
+=========================
+
+
+Change Log:
+=========================
+– Compatible with Android version 13
+– Update Android Studio to Electric Eel 2022.1.1 Patch 1
+– Update SDK to the latest version.
+– Update AdMob to the latest version.
+– Update OneSignal to the latest version.
+– Update Firebase to the latest version.
+– Update gradle to the latest version.
+– Update dependencies to the latest version.
+– Fix a few minor bugs.
+
+
+=========================
+Backend Effected Files(s):
+=========================
+N/A
+
+
+=========================
+SQL Effected Table(s):
+=========================
+N/A
+
+
+=========================
+Android Effected File(s):
+=========================
+– app/src/main/java/YourPackageName/WebViewFragment.java
+– app/gradle.properties
+– app/build.gradle
+
+
+=========================
+Update Server Side:
+=========================
+No need.
+
+
+=========================
+Update Android Side:
+=========================
+  1. Copy "Effected File(s)" to your existing project. (Notice: Be careful with your package name and custom changes).
+  2. Done.
+
+
+---
+Thanks & Regards
+Website: www.inw24.com
+Email: inw24.com@gmail.com

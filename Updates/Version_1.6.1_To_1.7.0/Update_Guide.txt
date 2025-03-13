@@ -1,0 +1,64 @@
+=========================
+Update from version 1.6.1 to 1.7.0
+=========================
+
+Change Log:
+=========================
+– Facebook intent has been added.
+– Twitter intent has been added.
+– Show Banner Ads after a few seconds of waiting.
+– Ability to open a specific URL during sending a push notification.
+– Add empty space in the display of Banner Ads so that ads don't show on app content.
+– Interstitial ads removed during app exit (violates Google Play policies).
+– Implement interstitial ads between page content (eg: after click on home navigation).
+– Update CodeIgniter to the latest version (3.10.11).
+– Update gradle to the latest version.
+– Update dependencies to the latest version.
+
+=========================
+Backend Effected Files(s):
+=========================
+– application/language/english/dashboard_lang.php
+– application/controllers/dashboard/Settings.php
+– application/controllers/dashboard/Api.php
+– application/models/dashboard/Settings_model.php
+– application/models/Shared_model.php
+– application/views/dashboard/settings/push_notification_view.php
+– application/views/dashboard/common/sidebar_view.php
+– application/views/dashboard/common/sidebar_user_view.php
+
+=========================
+SQL Effected Table(s):
+=========================
+N/A
+
+=========================
+Android Effected File(s):
+=========================
+– app/gradle.properties
+– app/build.gradle
+– app/src/main/java/com/inw24/multiwebview/MainActivity.java
+– app/src/main/java/com/inw24/multiwebview/WebViewFragment.java
+– app/src/main/res/layout/content_main.xml
+– app/src/main/res/values/colors.xml
+
+=========================
+Update Server Side:
+=========================
+  1. First of all, Make a Full Backup. We cannot stress enough how important it is to *always* take a full backup
+      before attempting any kind of update. Both for Server Side and Android Side. A full backup should be taken
+      of both the codes and the database.
+  2. Upload the "Effected File(s)" to your existing installation folder replacing any existing folders & files. (Notice: Be careful with your custom changes).
+  3. Done.
+
+=========================
+Update Android Side:
+=========================
+  1. Copy "Effected File(s)" to your existing project. (Notice: Be careful with your package name and custom changes).
+  2. Done.
+
+
+---
+Thanks & Regards
+Website: www.inw24.com
+Email: inw24.com@gmail.com

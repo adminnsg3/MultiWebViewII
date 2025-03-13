@@ -1,0 +1,72 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Update from version 3.1.0 to 3.2.0
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Change Log:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     • Fix hot reloading when session is started.
+     • Update to Android Studio Hedgehog (2023.1.1 Patch 1)
+     • Upgrade project to the AGP 8.2.1.
+     • Compatible with Android version 14.
+     • Update material design to the latest version.
+     • Update OneSignal to the latest version.
+     • Update dependencies to the latest version.
+     • Fix sending push notification issue from HTML pages on android 13+.
+     • Fix a few minor bugs.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Backend Effected Files(s):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+All files and folders.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ SQL Effected Table(s):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     - Nothing.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Android Effected File(s):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     - build.gradle (Project)
+     - build.gradle (Module)
+     - app/src/main/AndroidManifest.xml
+     - app/src/main/java/com/inw24/multiwebview/activity/MainActivity.java
+     - app/src/main/java/com/inw24/multiwebview/activity/SplashActivity.java
+     - app/src/main/java/com/inw24/multiwebview/activity/WebViewFragment.java
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Update Server Side:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Upload "Effected File(s) & Folders"  to your hosting space.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Update Database:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Import "Effected SQL" to your database.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Update Android Side:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Copy "Effected File(s)" to your existing project.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⦿ Notes:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   - Be careful with your package name and your custom changes.
+   - If any errors occurred after upgrade or you edit on code/database, we are not responsible for that.
+   - We are NOT providing support for learning to customize and upgrade.
+
+
+---
+Thanks & Regards
+Website: www.ViaCoders.com
+Email: ViaCoders@gmail.com

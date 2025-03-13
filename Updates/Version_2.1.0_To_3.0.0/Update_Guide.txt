@@ -1,0 +1,49 @@
+=========================
+Update from version 2.1.0 to 3.0.0
+=========================
+
+
+Change Log:
+=========================
+– Update AdMob to the latest version and rewrite the codes.
+– Update OneSignal to the latest version and rewrite the codes.
+– Update Firebase to the latest version.
+– Update gradle to the latest version.
+– Update dependencies to the latest version.
+– Improve performence and fix a few minor bugs.
+
+
+=========================
+Backend Effected Files(s):
+=========================
+N/A
+
+
+=========================
+SQL Effected Table(s):
+=========================
+N/A
+
+
+=========================
+Android Effected File(s):
+=========================
+Many changes have been made to the code, so you will have to re-install again.
+
+
+=========================
+Update Server Side:
+=========================
+No need.
+
+
+=========================
+Update Android Side:
+=========================
+Many changes have been made to the code, so you will have to re-install again.
+
+
+---
+Thanks & Regards
+Website: www.inw24.com
+Email: inw24.com@gmail.com

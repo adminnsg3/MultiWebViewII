@@ -1,0 +1,42 @@
+=========================
+Update from version 1.6.0 to 1.6.1
+=========================
+
+Change Log:
+=========================
+– Update com.google.gms:google-services.
+– Fixed a minor bugs.
+
+=========================
+Backend Effected Files(s):
+=========================
+– N/A.
+
+=========================
+SQL Effected Table(s):
+=========================
+– N/A.
+
+=========================
+Android Effected File(s):
+=========================
+– app/build.gradle (Project)
+– app/src/main/java/com/inw24/multiwebview/WebViewFragment.java
+
+
+=========================
+Update Server Side:
+=========================
+  N/A
+
+=========================
+Update Android Side:
+=========================
+  1. Copy "Effected File(s)" to your existing project. (Notice: Be careful with your package name and custom changes).
+  2. Done.
+
+
+---
+Thanks & Regards
+Website: www.inw24.com
+Email: inw24.com@gmail.com
